@@ -1,4 +1,4 @@
-FROM golang:1.15.1-alpine3.12 AS build-env
+FROM registry.redhat.io/rhel9/nginx-120:1-95 AS build-env
 
 WORKDIR /tmp/simple-go-app
 
